@@ -1,0 +1,36 @@
+{
+  "id": "psfx-demo",
+  "title": "Peri's Sound Effects Library - DEMO",
+  "description": "<p>Sound Effects Library for Foundry VTT</p>",
+  "authors": [
+    {
+      "name": "Peri",
+      "url": "",
+      "discord": "Peri#8466"
+    }
+  ],
+  "url": "",
+  "license": "",
+  "media": [],
+  "flags": {},
+  "version": "0.0.1",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "12",
+  "compatibility": {
+    "minimum": 11,
+    "verified": 12
+  },
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "styles": [],
+  "languages": [],
+  "packs": [],
+  "relationships": {},
+  "socket": false,
+  "manifest": null,
+  "download": null,
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
