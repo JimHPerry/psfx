@@ -174,6 +174,9 @@ export async function registerPSFXDatabase(prefix) {
         "ray-of-frost": {
             "v1": [
                 `${prefix}/library/cantrips/ray-of-frost/v1/ray-of-frost-001.ogg`,
+            ],
+            "v2": [
+                `${prefix}/library/cantrips/ray-of-frost/v2/ray-of-frost-002.ogg`,
             ]
         },
         "toll-the-dead": {
