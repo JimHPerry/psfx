@@ -25,7 +25,26 @@
   ],
   "styles": [],
   "languages": [],
-  "packs": [],
+  "packs": [
+    {
+      "type": "Macro",
+      "label": "PSFX Macros",
+      "name": "psfx-macros",
+      "path": "packs/psfx-macros",
+      "module": "psfx-demo"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "PSFX",
+      "sorting": "a",
+      "color": "#304354",
+      "packs": [
+        "psfx-macros"
+      ],
+      "folders": []
+    }
+  ],
   "relationships": {},
   "socket": false,
   "manifest": "https://github.com/JimHPerry/psfx-demo/releases/latest/download/module.json",
