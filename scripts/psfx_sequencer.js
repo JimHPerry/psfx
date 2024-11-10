@@ -207,5 +207,16 @@ export async function registerPSFXDatabase(prefix) {
                 }
         }
     }
+    psfxDatabase["ranged-weapons"] = {
+        "longbow": {
+            "v1": {
+                "05ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-05ft.ogg`,
+                "15ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-15ft.ogg`,
+                "30ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-30ft.ogg`,
+                "60ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-60ft.ogg`,
+                "90ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-90ft.ogg`
+              }
+        }
+    }
 }
 export { psfxDatabase }
