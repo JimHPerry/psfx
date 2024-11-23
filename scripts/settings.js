@@ -1,4 +1,4 @@
-export const MODULE_NAME = "psfx-demo";
+export const MODULE_NAME = "psfx";
 export default async function psfx_settings() {
 
  

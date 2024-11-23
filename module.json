@@ -1,6 +1,6 @@
 {
-  "id": "psfx-demo",
-  "title": "Peri's Sound Effects Library - DEMO",
+  "id": "psfx",
+  "title": "PSFX - Peri's Sound Effects",
   "description": "<p>Sound Effects Library for Foundry VTT</p>",
   "authors": [
     {
@@ -31,7 +31,7 @@
       "label": "PSFX Macros",
       "name": "psfx-macros",
       "path": "packs/psfx-macros",
-      "module": "psfx-demo"
+      "module": "psfx"
     }
   ],
   "packFolders": [
@@ -47,8 +47,8 @@
   ],
   "relationships": {},
   "socket": false,
-  "manifest": "https://github.com/JimHPerry/psfx-demo/releases/latest/download/module.json",
-  "download": "https://github.com/JimHPerry/psfx-demo/releases/latest/download/psfx-demo.zip",
+  "manifest": "https://github.com/JimHPerry/psfx/releases/latest/download/module.json",
+  "download": "https://github.com/JimHPerry/psfx/releases/latest/download/psfx.zip",
   "protected": false,
   "coreTranslation": false,
   "library": false
