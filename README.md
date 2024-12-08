@@ -16,7 +16,7 @@ That’s me! I’m a friend of the creators of JB2A, a user of their assets, and
 
 In my experience, the quality and availability of SFX pales in comparison to what is available for VFX. When I cast firebolt, I want to hear the whoosh of the flames, the smash of the impact, and the crackling of the afterburn – and I want to hear a sound that reflects the animation I see on the screen!
 
-I also just really enjoy making sounds and I am happy to share what I do.
+I also just really enjoy making sounds and I am happy to share what I do. It would be great if people could give me suggestions and feedback! 
 
 # What is the goal of this module?
 
@@ -56,14 +56,14 @@ For the sound design I use the following software:
 - Audacity
 - Vital Synth
 
-# How much does the module cost to use?
-
-Nothing. It’s free. In return for using the module it would be great if people could give me suggestions for new sounds, and feedback on current sounds, but that’s optional!
-
 # Is PSFX for D&D5e?
 
 I use this module in my D&D5e campaign, and have taken inspiration from that system for sound design. There is nothing stopping you using them for other systems though, you can mix and match from PSFX with whichever animations, in whichever game system, you see fit!
 
+# How much does the module cost to use?
+
+Nothing. It’s free. However, if you would like to support me you can [tip me or subscribe to my Ko-fi](https://ko-fi.com/perisfx) to get an awesome server role.
+
 # How do I use PSFX?
 
-Check the https://discord.com/channels/1305188786866622464/1306397358518566943 channel :slight_smile:
+Join the free PSFX [Discord Community](https://discord.gg/p5MBHt4Hkv) to access the how-to channel and community support.

@@ -205,6 +205,21 @@ export async function registerPSFXDatabase(prefix) {
                 "60ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-60ft.ogg`,
                 "90ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-90ft.ogg`
                 }
+        },
+        "shocking-grasp": {
+            "v1": {
+                "001": `${prefix}/library/cantrips/shocking-grasp/v1/shocking-grasp-001.ogg`,
+                "002": `${prefix}/library/cantrips/shocking-grasp/v1/shocking-grasp-002.ogg`,
+                "003": `${prefix}/library/cantrips/shocking-grasp/v1/shocking-grasp-003.ogg`,
+                "004": `${prefix}/library/cantrips/shocking-grasp/v1/shocking-grasp-004.ogg`,
+                "005": `${prefix}/library/cantrips/shocking-grasp/v1/shocking-grasp-005.ogg`
+            }
+        },
+        "create-bonfire": {
+            "v1": {
+                "001": `${prefix}/library/cantrips/create-bonfire/v1/create-bonfire-001.ogg`,
+                "002": `${prefix}/library/cantrips/create-bonfire/v1/create-bonfire-002.ogg`
+            }
         }
     }
     psfxDatabase["ranged-weapons"] = {
@@ -216,6 +231,38 @@ export async function registerPSFXDatabase(prefix) {
                 "60ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-60ft.ogg`,
                 "90ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-90ft.ogg`
               }
+        }
+    }
+    psfxDatabase["weapon-attacks"] = {
+        "spear": {
+            "v1": [
+                `${prefix}/library/weapon-attacks/spear/v1/spear-001-00.ogg`,
+                `${prefix}/library/weapon-attacks/spear/v1/spear-001-01.ogg`,
+                `${prefix}/library/weapon-attacks/spear/v1/spear-001-02.ogg`,
+                `${prefix}/library/weapon-attacks/spear/v1/spear-001-03.ogg`,
+                `${prefix}/library/weapon-attacks/spear/v1/spear-001-04.ogg`,
+                `${prefix}/library/weapon-attacks/spear/v1/spear-001-05.ogg`
+            ]
+        }
+    }
+    psfxDatabase["ambient"] = {
+        "firesources": {
+            "fireplace": {
+                "001": `${prefix}/library/ambient/firesources/fireplace/open-fire-001.ogg`,
+                "002": `${prefix}/library/ambient/firesources/fireplace/open-fire-002.ogg`,
+            }
+        }
+    }
+    psfxDatabase["1st-level-spells"] = {
+        "entangle": {
+            "vines" : {
+                "v1" : {
+                    "001" : {
+                        "intro" : `${prefix}/library/1st-level-spells/entangle/vines/v1/entangle-intro.ogg`,
+                        "outro" : `${prefix}/library/1st-level-spells/entangle/vines/v1/entangle-outro.ogg`
+                    }
+                }
+            }
         }
     }
 }
