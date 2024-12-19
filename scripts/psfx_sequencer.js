@@ -117,6 +117,16 @@ export async function registerPSFXDatabase(prefix) {
                     `${prefix}/library/weapon-swooshes/psychic/v1/group01/meleeattack-swoosh-magicaleffect-group01-psychic-03.ogg`
                 ]
             }
+        },
+        "lightning": {
+            "v1": {
+                "group01": [
+                    `${prefix}/library/weapon-swooshes/lightning/v1/group01/meleeattack-swoosh-magicaleffect-group01-lightning-00.ogg`,
+                    `${prefix}/library/weapon-swooshes/lightning/v1/group01/meleeattack-swoosh-magicaleffect-group01-lightning-01.ogg`,
+                    `${prefix}/library/weapon-swooshes/lightning/v1/group01/meleeattack-swoosh-magicaleffect-group01-lightning-02.ogg`,
+                    `${prefix}/library/weapon-swooshes/lightning/v1/group01/meleeattack-swoosh-magicaleffect-group01-lightning-03.ogg`
+                ]
+            }
         }
     }
     psfxDatabase["impacts"] = {
@@ -151,6 +161,13 @@ export async function registerPSFXDatabase(prefix) {
                 `${prefix}/library/impacts/magicaleffects/psychic/meleeattack-impacts-magicaleffects-psychic-01.ogg`,
                 `${prefix}/library/impacts/magicaleffects/psychic/meleeattack-impacts-magicaleffects-psychic-02.ogg`,
                 `${prefix}/library/impacts/magicaleffects/psychic/meleeattack-impacts-magicaleffects-psychic-03.ogg` 
+            ],
+            "lightning": [
+                `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-00.ogg`,
+                `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-01.ogg`,
+                `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-02.ogg`,
+                `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-03.ogg`,
+                `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-04.ogg` 
             ]   
         }
     }
@@ -195,6 +212,15 @@ export async function registerPSFXDatabase(prefix) {
         "mind-sliver": {
             "v1": [
                 `${prefix}/library/cantrips/mind-sliver/v1/mind-sliver-001.ogg`,
+            ]
+        },
+        "eldritch-blast": {
+            "v1": [
+                `${prefix}/library/cantrips/eldritch-blast/v1/eldritch-blast-001.ogg`,
+                `${prefix}/library/cantrips/eldritch-blast/v1/eldritch-blast-002.ogg`,
+                `${prefix}/library/cantrips/eldritch-blast/v1/eldritch-blast-003.ogg`,
+                `${prefix}/library/cantrips/eldritch-blast/v1/eldritch-blast-004.ogg`,
+                `${prefix}/library/cantrips/eldritch-blast/v1/eldritch-blast-005.ogg`
             ]
         },
         "acid-splash": {
@@ -263,7 +289,23 @@ export async function registerPSFXDatabase(prefix) {
                     }
                 }
             }
+        },
+        "burning-hands": {
+            "v1": {
+                "001": `${prefix}/library/1st-level-spells/burning-hands/v1/burning-hands-01.ogg`
+            }
+        }
+    }
+    psfxDatabase["3rd-level-spells"] = {
+        "fireball": {
+            "v1" : {
+                "001" : {
+                    "beam" : `${prefix}/library/3rd-level-spells/fireball/v1/fireball-beam-01.ogg`,
+                    "explosion" : `${prefix}/library/3rd-level-spells/fireball/v1/fireball-explosion-01.ogg`
+                }
+            }
         }
     }
 }
+   
 export { psfxDatabase }
