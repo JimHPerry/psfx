@@ -6,7 +6,7 @@ Join the PSFX [Discord Community](https://discord.gg/p5MBHt4Hkv)
 
 # What is ‘Peri’s Sound Effects’ (PSFX)
 
-PSFX is a free sound effect module for Foundry VTT. It contains a growing library of homemade, custom and animation-syncronised SFX audio files, in .ogg format.
+PSFX is a free sound effect module for Foundry VTT. It contains a growing library of homemade, custom and animation-synchronised SFX audio files, in .ogg format.
 
 # Who is Peri?
 
