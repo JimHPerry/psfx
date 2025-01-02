@@ -246,6 +246,11 @@ export async function registerPSFXDatabase(prefix) {
                 "001": `${prefix}/library/cantrips/create-bonfire/v1/create-bonfire-001.ogg`,
                 "002": `${prefix}/library/cantrips/create-bonfire/v1/create-bonfire-002.ogg`
             }
+        },
+        "poison-spray": {
+            "v1": [
+                `${prefix}/library/cantrips/poison-spray/v1/poison-spray-001.ogg`,
+            ]
         }
     }
     psfxDatabase["ranged-weapons"] = {
@@ -268,6 +273,16 @@ export async function registerPSFXDatabase(prefix) {
                 `${prefix}/library/weapon-attacks/spear/v1/spear-001-03.ogg`,
                 `${prefix}/library/weapon-attacks/spear/v1/spear-001-04.ogg`,
                 `${prefix}/library/weapon-attacks/spear/v1/spear-001-05.ogg`
+            ]
+        },
+        "sword": {
+            "v1": [
+                `${prefix}/library/weapon-attacks/sword/v1/sword-001-00.ogg`,
+                `${prefix}/library/weapon-attacks/sword/v1/sword-001-01.ogg`,
+                `${prefix}/library/weapon-attacks/sword/v1/sword-001-02.ogg`,
+                `${prefix}/library/weapon-attacks/sword/v1/sword-001-03.ogg`,
+                `${prefix}/library/weapon-attacks/sword/v1/sword-001-04.ogg`,
+                `${prefix}/library/weapon-attacks/sword/v1/sword-001-05.ogg`
             ]
         }
     }
@@ -302,6 +317,16 @@ export async function registerPSFXDatabase(prefix) {
                 "001" : {
                     "beam" : `${prefix}/library/3rd-level-spells/fireball/v1/fireball-beam-01.ogg`,
                     "explosion" : `${prefix}/library/3rd-level-spells/fireball/v1/fireball-explosion-01.ogg`
+                }
+            }
+        }
+    }
+    psfxDatabase["class-features"] = {
+        "divine-smite": {
+            "v1" : {
+                "001" : {
+                    "caster" : `${prefix}/library/class-features/divine-smite/v1/divine-smite-caster-01.ogg`,
+                    "target" : `${prefix}/library/class-features/divine-smite/v1/divine-smite-target-01.ogg`
                 }
             }
         }
