@@ -2,6 +2,8 @@
 All the sound assets are in the "Library" folder and are registered via the Sequencer's module Database.
 ![GitHub Downloads (specific asset, latest release)](https://img.shields.io/github/downloads/JimHPerry/psfx/latest/psfx.zip)
 
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/JimHPerry/psfx/psfx.zip)
+
 Join the PSFX [Discord Community](https://discord.gg/p5MBHt4Hkv) 
 
 # What is ‘Peri’s Sound Effects’ (PSFX)
