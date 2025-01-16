@@ -251,6 +251,19 @@ export async function registerPSFXDatabase(prefix) {
             "v1": [
                 `${prefix}/library/cantrips/poison-spray/v1/poison-spray-001.ogg`,
             ]
+        },
+        "thunderclap": {
+            "v1": [
+                `${prefix}/library/cantrips/thunderclap/v1/thunderclap-001.ogg`,
+            ]
+        },
+        "sacred-flame": {
+            "v1" : {
+                "001" : {
+                    "caster" : `${prefix}/library/cantrips/sacred-flame/v1/sacred-flame-caster-01.ogg`,
+                    "target" : `${prefix}/library/cantrips/sacred-flame/v1/sacred-flame-target-01.ogg`
+                }
+            }
         }
     }
     psfxDatabase["ranged-weapons"] = {
