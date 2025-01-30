@@ -241,6 +241,24 @@ export async function registerPSFXDatabase(prefix) {
                 "005": `${prefix}/library/cantrips/shocking-grasp/v1/shocking-grasp-005.ogg`
             }
         },
+        "dancing-lights": {
+            "v1": {
+                "001": `${prefix}/library/cantrips/dancing-lights/v1/dancing-lights-00.ogg`,
+                "002": `${prefix}/library/cantrips/dancing-lights/v1/dancing-lights-01.ogg`,
+                "003": `${prefix}/library/cantrips/dancing-lights/v1/dancing-lights-02.ogg`,
+                "004": `${prefix}/library/cantrips/dancing-lights/v1/dancing-lights-03.ogg`,
+                "005": `${prefix}/library/cantrips/dancing-lights/v1/dancing-lights-04.ogg`
+            }
+        },
+        "light": {
+            "v1": {
+                "001": `${prefix}/library/cantrips/light/v1/light-00.ogg`,
+                "002": `${prefix}/library/cantrips/light/v1/light-01.ogg`,
+                "003": `${prefix}/library/cantrips/light/v1/light-02.ogg`,
+                "004": `${prefix}/library/cantrips/light/v1/light-03.ogg`,
+                "005": `${prefix}/library/cantrips/light/v1/light-04.ogg`
+            }
+        },
         "create-bonfire": {
             "v1": {
                 "001": `${prefix}/library/cantrips/create-bonfire/v1/create-bonfire-001.ogg`,
@@ -255,6 +273,11 @@ export async function registerPSFXDatabase(prefix) {
         "thunderclap": {
             "v1": [
                 `${prefix}/library/cantrips/thunderclap/v1/thunderclap-001.ogg`,
+            ]
+        },
+        "gust": {
+            "v1": [
+                `${prefix}/library/cantrips/gust/v1/gust-001.ogg`,
             ]
         },
         "sacred-flame": {
@@ -332,6 +355,20 @@ export async function registerPSFXDatabase(prefix) {
                     "explosion" : `${prefix}/library/3rd-level-spells/fireball/v1/fireball-explosion-01.ogg`
                 }
             }
+        },
+        "call-lightning": {
+            "v1" : {
+                "cast" : [`${prefix}/library/3rd-level-spells/call-lightning/v1/cast/call-lightning-001.ogg`],
+                "primary" : [`${prefix}/library/3rd-level-spells/call-lightning/v1/primary/lightning-strike-001.ogg`],
+                "secondary" : [
+                    `${prefix}/library/3rd-level-spells/call-lightning/v1/secondary/chain-lightning-secondary-strike-5ft-00.ogg`,
+                    `${prefix}/library/3rd-level-spells/call-lightning/v1/secondary/chain-lightning-secondary-strike-5ft-01.ogg`,
+                    `${prefix}/library/3rd-level-spells/call-lightning/v1/secondary/chain-lightning-secondary-strike-5ft-02.ogg`,
+                    `${prefix}/library/3rd-level-spells/call-lightning/v1/secondary/chain-lightning-secondary-strike-5ft-03.ogg`,
+                    `${prefix}/library/3rd-level-spells/call-lightning/v1/secondary/chain-lightning-secondary-strike-5ft-04.ogg`
+                ]
+            }
+
         }
     }
     psfxDatabase["class-features"] = {
