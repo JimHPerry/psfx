@@ -345,6 +345,16 @@ export async function registerPSFXDatabase(prefix) {
             "v1": {
                 "001": `${prefix}/library/1st-level-spells/burning-hands/v1/burning-hands-01.ogg`
             }
+        },
+        "arms-of-hadar": {
+            "v1": {
+                "001": `${prefix}/library/1st-level-spells/arms-of-hadar/v1/arms-of-hadar-00.ogg`
+            }
+        },
+        "cure-wounds": {
+            "v1": {
+                "001": `${prefix}/library/1st-level-spells/cure-wounds/v1/cure-wounds-00.ogg`
+            }
         }
     }
     psfxDatabase["3rd-level-spells"] = {
@@ -369,6 +379,13 @@ export async function registerPSFXDatabase(prefix) {
                 ]
             }
 
+        }
+    }
+    psfxDatabase["5th-level-spells"] = {
+        "cone-of-cold": {
+            "v1": {
+                "001": `${prefix}/library/5th-level-spells/cone-of-cold/v1/cone-of-cold-00.ogg`
+            }
         }
     }
     psfxDatabase["class-features"] = {
