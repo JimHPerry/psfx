@@ -1,7 +1,42 @@
-2025/04/07-15:41:27.394 3d2c Recovering log #475
-2025/04/07-15:41:27.440 3d2c Delete type=0 #475
-2025/04/07-15:41:27.440 3d2c Delete type=3 #473
-2025/04/07-15:42:28.604 3e1c Level-0 table #480: started
-2025/04/07-15:42:28.604 3e1c Level-0 table #480: 0 bytes OK
-2025/04/07-15:42:28.639 3e1c Delete type=0 #478
-2025/04/07-15:42:28.831 3e1c Manual compaction at level-0 from '!macros!3fAUx2H2A8hSj2fg' @ 72057594037927935 : 1 .. '!macros!zYCX2BmlEYEBELbg' @ 0 : 0; will stop at (end)
+2025/04/07-20:30:02.682 23f0 Recovering log #482
+2025/04/07-20:30:02.717 23f0 Delete type=2 #49
+2025/04/07-20:30:02.717 23f0 Delete type=0 #51
+2025/04/07-20:30:02.717 23f0 Delete type=2 #90
+2025/04/07-20:30:02.717 23f0 Delete type=0 #92
+2025/04/07-20:30:02.717 23f0 Delete type=2 #98
+2025/04/07-20:30:02.718 23f0 Delete type=0 #99
+2025/04/07-20:30:02.718 23f0 Delete type=0 #144
+2025/04/07-20:30:02.718 23f0 Delete type=2 #146
+2025/04/07-20:30:02.718 23f0 Delete type=2 #160
+2025/04/07-20:30:02.718 23f0 Delete type=0 #165
+2025/04/07-20:30:02.718 23f0 Delete type=2 #171
+2025/04/07-20:30:02.718 23f0 Delete type=0 #178
+2025/04/07-20:30:02.718 23f0 Delete type=0 #197
+2025/04/07-20:30:02.718 23f0 Delete type=2 #314
+2025/04/07-20:30:02.718 23f0 Delete type=0 #348
+2025/04/07-20:30:02.719 23f0 Delete type=2 #368
+2025/04/07-20:30:02.719 23f0 Delete type=0 #369
+2025/04/07-20:30:02.719 23f0 Delete type=0 #448
+2025/04/07-20:30:02.719 23f0 Delete type=0 #482
+2025/04/07-20:30:02.719 23f0 Delete type=3 #50
+2025/04/07-20:30:02.719 23f0 Delete type=3 #91
+2025/04/07-20:30:02.719 23f0 Delete type=3 #97
+2025/04/07-20:30:02.719 23f0 Delete type=3 #142
+2025/04/07-20:30:02.719 23f0 Delete type=3 #164
+2025/04/07-20:30:02.719 23f0 Delete type=3 #176
+2025/04/07-20:30:02.720 23f0 Delete type=3 #196
+2025/04/07-20:30:02.720 23f0 Delete type=3 #347
+2025/04/07-20:30:02.720 23f0 Delete type=3 #367
+2025/04/07-20:30:02.720 23f0 Delete type=3 #447
+2025/04/07-20:30:02.720 23f0 Delete type=3 #481
+2025/04/07-20:36:20.569 130c Level-0 table #486: started
+2025/04/07-20:36:20.598 130c Level-0 table #486: 25631 bytes OK
+2025/04/07-20:36:20.623 130c Delete type=0 #484
+2025/04/07-20:36:20.623 130c Manual compaction at level-0 from '!macros!3fAUx2H2A8hSj2fg' @ 72057594037927935 : 1 .. '!macros!zYCX2BmlEYEBELbg' @ 0 : 0; will stop at '!macros!zYCX2BmlEYEBELbg' @ 94 : 1
+2025/04/07-20:36:20.623 130c Compacting 1@0 + 1@1 files
+2025/04/07-20:36:20.682 130c Generated table #487@0: 14 keys, 23999 bytes
+2025/04/07-20:36:20.682 130c Compacted 1@0 + 1@1 files => 23999 bytes
+2025/04/07-20:36:20.706 130c compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/04/07-20:36:20.707 130c Delete type=2 #374
+2025/04/07-20:36:20.707 130c Delete type=2 #486
+2025/04/07-20:36:20.802 130c Manual compaction at level-0 from '!macros!zYCX2BmlEYEBELbg' @ 94 : 1 .. '!macros!zYCX2BmlEYEBELbg' @ 0 : 0; will stop at (end)
