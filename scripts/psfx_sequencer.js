@@ -355,6 +355,26 @@ export async function registerPSFXDatabase(prefix) {
             "v1": {
                 "001": `${prefix}/library/1st-level-spells/cure-wounds/v1/cure-wounds-00.ogg`
             }
+        },
+        "magic-missile": {
+            "v1": {
+                "05ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-05ft.ogg`,
+                "15ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-15ft.ogg`,
+                "30ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-30ft.ogg`,
+                "60ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-60ft.ogg`,
+                "90ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-90ft.ogg`
+              }
+        }
+    }
+    psfxDatabase["2nd-level-spells"] = {
+        "scorching-ray": {
+            "v1": {
+                "05ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-05ft.ogg`,
+                "15ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-15ft.ogg`,
+                "30ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-30ft.ogg`,
+                "60ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-60ft.ogg`,
+                "90ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-90ft.ogg`
+              }
         }
     }
     psfxDatabase["3rd-level-spells"] = {
