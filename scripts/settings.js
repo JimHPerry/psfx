@@ -3,7 +3,14 @@ export default async function psfx_settings() {
 
  
 
-  const debounceReload = debounce(() => window.location.reload(), 100)
+  game.settings.register(MODULE_NAME, "runonlyonce", {  // game.setting.register("NameOfTheModule", "VariableName",
+    name: "Info Chat Card - Disabled",                  // Register a module setting with checkbox
+    hint: "If On, you won't see the info chat card at the start",               // Description of the settings
+    scope: "world",                                     // This specifies a world-level setting
+    config: true,                                       // This specifies that the setting appears in the configuration view
+    type: Boolean,
+    default: false,                                     // The default value for the setting
+  });
 
   game.settings.register(MODULE_NAME, "psfxLocation", {
     name: "Peri SFX - location (default : 'modules')",
@@ -12,7 +19,7 @@ export default async function psfx_settings() {
     config: true,
     type: String,
     default: "modules",
-    onChange: debounceReload
+    requiresReload: true
   });
   };
 

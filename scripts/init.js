@@ -1,5 +1,5 @@
 import psfx_settings, {MODULE_NAME} from "./settings.js";
-// import { contentCard } from "./window_popup.js";
+import { contentCard } from "./window_popup.js";
 import { registerPSFXDatabase } from "./psfx_sequencer.js";
 import { psfxDatabase } from "./psfx_sequencer.js";
 
@@ -21,9 +21,23 @@ Hooks.once('init', async function () {
 
 Hooks.once('ready', async function () {
 
-game.modules.get(MODULE_NAME).api = {
-        psfxDatabase
-    }
+  if (game.user.isGM) {
+    if (game.settings.get(MODULE_NAME, "runonlyonce") === false) {   
+        // Create Chat Message and check if version of FoundryVTT is 9 or above (game.user.id becomes game.user._id)
+      await ChatMessage.create({
+          user: game.user._id,
+          speaker: ChatMessage.getSpeaker(),
+          content: contentCard,
+      }, {})
+
+
+      await game.settings.set(MODULE_NAME, "runonlyonce", true);      
+      }
+  }
+
+  game.modules.get(MODULE_NAME).api = {
+          psfxDatabase
+      }
 
 })
 

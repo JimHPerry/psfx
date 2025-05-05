@@ -65,6 +65,10 @@ I use this module in my D&D5e campaign, and have taken inspiration from that sys
 
 Nothing. It’s free. However, if you would like to support me you can [tip me or subscribe to my Ko-fi](https://ko-fi.com/perisfx) to get an awesome server role.
 
+# How often will there be updates/releases of new sounds?
+
+As often as I can. For context, I have a full-time day job, a family with two children and two D&D campaigns, so I use my free time around that to work on the module. I aim to add new sounds once a month, at the very least. 
+
 # How do I use PSFX?
 
 Join the free PSFX [Discord Community](https://discord.gg/p5MBHt4Hkv) to access the how-to channel and community support.

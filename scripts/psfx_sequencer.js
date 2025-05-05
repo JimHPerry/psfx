@@ -172,6 +172,83 @@ export async function registerPSFXDatabase(prefix) {
         }
     }
     psfxDatabase["cantrips"] = {
+        // TO DO 
+        // "fire-bolt": {
+        //     "v1": {
+        //         "05ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-001-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-002-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-003-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-004-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-005-05ft.ogg`
+        //         ],
+        //         "15ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-001-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-002-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-003-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-004-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-005-15ft.ogg`
+        //         ],
+        //         "30ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-001-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-002-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-003-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-004-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-005-30ft.ogg`
+        //         ],
+        //         "60ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-001-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-002-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-003-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-004-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-005-60ft.ogg`
+        //         ],
+        //         "90ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-001-90ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-002-90ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-003-90ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-004-90ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-005-90ft.ogg`
+        //         ],
+        //     },
+        //     "v2": {
+        //         "05ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-001-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-002-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-003-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-004-05ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-005-05ft.ogg`
+        //         ],
+        //         "15ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-001-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-002-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-003-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-004-15ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-005-15ft.ogg`
+        //         ],
+        //         "30ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-001-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-002-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-003-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-004-30ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-005-30ft.ogg`
+        //         ],
+        //         "60ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-001-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-002-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-003-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-004-60ft.ogg`,
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-005-60ft.ogg`
+        //         ],
+        //         "90ft": [
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-001-90ft.ogg`
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-002-90ft.ogg`
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-003-90ft.ogg`
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-004-90ft.ogg`
+        //             `${prefix}/library/cantrips/fire-bolt/v2/fire-bolt-005-90ft.ogg`
+        //         ],
+        //     }
+        // },
         "fire-bolt": {
             "v1": {
                 "05ft": `${prefix}/library/cantrips/fire-bolt/v1/fire-bolt-001-05ft.ogg`,
@@ -190,10 +267,10 @@ export async function registerPSFXDatabase(prefix) {
         },
         "ray-of-frost": {
             "v1": [
-                `${prefix}/library/cantrips/ray-of-frost/v1/ray-of-frost-001.ogg`,
+                `${prefix}/library/cantrips/ray-of-frost/v1/ray-of-frost-003.ogg`
             ],
             "v2": [
-                `${prefix}/library/cantrips/ray-of-frost/v2/ray-of-frost-002.ogg`,
+                `${prefix}/library/cantrips/ray-of-frost/v2/ray-of-frost-003.ogg`
             ]
         },
         "toll-the-dead": {
@@ -225,12 +302,22 @@ export async function registerPSFXDatabase(prefix) {
         },
         "acid-splash": {
             "v1": {
-                "05ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-05ft.ogg`,
-                "15ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-15ft.ogg`,
-                "30ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-30ft.ogg`,
-                "60ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-60ft.ogg`,
-                "90ft": `${prefix}/library/cantrips/acid-splash/v1/acid-splash-001-90ft.ogg`
-                }
+                "05ft": [
+                    `${prefix}/library/cantrips/acid-splash/v1/acid-splash-003-05ft.ogg`
+                ],
+                "15ft": [
+                   `${prefix}/library/cantrips/acid-splash/v1/acid-splash-003-15ft.ogg`
+                ],      
+                "30ft": [
+                    `${prefix}/library/cantrips/acid-splash/v1/acid-splash-003-30ft.ogg`
+                ],
+                "60ft": [
+                    `${prefix}/library/cantrips/acid-splash/v1/acid-splash-003-60ft.ogg`
+                ],
+                "90ft": [
+                    `${prefix}/library/cantrips/acid-splash/v1/acid-splash-003-90ft.ogg`
+                ],
+            }
         },
         "shocking-grasp": {
             "v1": {
@@ -292,12 +379,23 @@ export async function registerPSFXDatabase(prefix) {
     psfxDatabase["ranged-weapons"] = {
         "longbow": {
             "v1": {
-                "05ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-05ft.ogg`,
-                "15ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-15ft.ogg`,
-                "30ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-30ft.ogg`,
-                "60ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-60ft.ogg`,
-                "90ft": `${prefix}/library/ranged-weapons/longbow/v1/longbow-001-90ft.ogg`
-              }
+                "05ft": [
+                    `${prefix}/library/ranged-weapons/longbow/v1/longbow-003-05ft.ogg`
+                ],               
+                "15ft": [
+                    `${prefix}/library/ranged-weapons/longbow/v1/longbow-003-15ft.ogg`
+                ],
+                "30ft": [
+                    `${prefix}/library/ranged-weapons/longbow/v1/longbow-003-30ft.ogg`
+                ],                                           
+                "60ft": [
+                    `${prefix}/library/ranged-weapons/longbow/v1/longbow-003-60ft.ogg`
+                ],              
+                "90ft": [
+                    `${prefix}/library/ranged-weapons/longbow/v1/longbow-003-90ft.ogg`
+                ],               
+                
+            }
         }
     }
     psfxDatabase["weapon-attacks"] = {
@@ -328,7 +426,7 @@ export async function registerPSFXDatabase(prefix) {
                 "001": `${prefix}/library/ambient/firesources/fireplace/open-fire-001.ogg`,
                 "002": `${prefix}/library/ambient/firesources/fireplace/open-fire-002.ogg`,
             }
-        }
+        },
     }
     psfxDatabase["1st-level-spells"] = {
         "entangle": {
@@ -398,7 +496,6 @@ export async function registerPSFXDatabase(prefix) {
                     `${prefix}/library/3rd-level-spells/call-lightning/v1/secondary/chain-lightning-secondary-strike-5ft-04.ogg`
                 ]
             }
-
         }
     }
     psfxDatabase["5th-level-spells"] = {
@@ -418,6 +515,104 @@ export async function registerPSFXDatabase(prefix) {
             }
         }
     }
+    psfxDatabase["casting"] = {
+        "fire": {
+            "001": [
+                `${prefix}/library/casting/fire/cast-fire-03.ogg`
+            ],
+        },
+        "fire-side": {
+            "001": [
+                `${prefix}/library/casting/fire-side/cast-fire-side-03.ogg`
+            ],
+        },
+        "earth": {
+            "001": [
+                `${prefix}/library/casting/earth/cast-earth-03.ogg`
+            ],
+        },
+        "sound": {
+            "001": [
+                `${prefix}/library/casting/sound/cast-sound-03.ogg`
+            ],
+        },
+        "water": {
+            "001": [ 
+                `${prefix}/library/casting/water/cast-water-03.ogg`
+            ],
+        },
+        "generic": {
+            "001": [
+                `${prefix}/library/casting/generic/cast-generic-03.ogg`
+            ],
+        }
+    }
+    // TO DO Variations pending
+    // psfxDatabase["incantations"] = {
+    //     "older-female": {
+    //         "fire-spells": {
+    //             "ardor-exsurge": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ardor-exsurge/ardor-exsurge-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ardor-exsurge/ardor-exsurge-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ardor-exsurge/ardor-exsurge-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ardor-exsurge/ardor-exsurge-whisper.ogg`
+    //             ],
+    //             "concrema-omnia": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/concrema-omnia/concrema-omnia-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/concrema-omnia/concrema-omnia-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/concrema-omnia/concrema-omnia-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/concrema-omnia/concrema-omnia-whisper.ogg`
+    //             ],
+    //             "exuro-invictum": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/exuro-invictum/exuro-invictum-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/exuro-invictum/exuro-invictum-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/exuro-invictum/exuro-invictum-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/exuro-invictum/exuro-invictum-whisper.ogg`
+    //             ],
+    //             "flamma-vocabitur": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/flamma-vocabitur/flamma-vocabitur-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/flamma-vocabitur/flamma-vocabitur-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/flamma-vocabitur/flamma-vocabitur-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/flamma-vocabitur/flamma-vocabitur-whisper.ogg`
+    //             ],
+    //             "ignis-imperium": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-imperium/ignis-imperium-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-imperium/ignis-imperium-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-imperium/ignis-imperium-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-imperium/ignis-imperium-whisper.ogg`
+    //             ],
+    //             "ignis-veritatis": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-veritatis/ignis-veritatis-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-veritatis/ignis-veritatis-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-veritatis/ignis-veritatis-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/ignis-veritatis/ignis-veritatis-whisper.ogg`
+    //             ],
+    //             "incendium-aeternum": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/incendium-aeternum/incendium-aeternum-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/incendium-aeternum/incendium-aeternum-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/incendium-aeternum/incendium-aeternum-whisper.ogg`
+    //             ],
+    //             "inferna-aperiuntur": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/inferna-aperiuntur/inferna-aperiuntur-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/inferna-aperiuntur/inferna-aperiuntur-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/inferna-aperiuntur/inferna-aperiuntur-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/inferna-aperiuntur/inferna-aperiuntur-whisper.ogg`
+    //             ],
+    //             "pactum-flammarum": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pactum-flammarum/pactum-flammarum-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pactum-flammarum/pactum-flammarum-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pactum-flammarum/pactum-flammarum-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pactum-flammarum/pactum-flammarum-whisper.ogg`
+    //             ],
+    //             "pyri-dominatus": [
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pyri-dominatus/pyri-dominatus-commanding.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pyri-dominatus/pyri-dominatus-rushed.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pyri-dominatus/pyri-dominatus-slow.ogg`,
+    //                 `${prefix}/library/incantations/older-female/fire-spells/pyri-dominatus/pyri-dominatus-whisper.ogg`
+    //             ]
+    //         }
+    //     }
+    // }
 }
    
 export { psfxDatabase }
