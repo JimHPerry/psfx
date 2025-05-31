@@ -550,7 +550,7 @@ export async function registerPSFXDatabase(prefix) {
         },
         "generic": {
             "001": [
-                `${prefix}/library/casting/generic/cast-generic-03.ogg`
+                `${prefix}/library/casting/generic/001/cast-generic-03.ogg`
             ],
             "002": {
                 "001": [
