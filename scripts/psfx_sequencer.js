@@ -168,7 +168,14 @@ export async function registerPSFXDatabase(prefix) {
                 `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-02.ogg`,
                 `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-03.ogg`,
                 `${prefix}/library/impacts/magicaleffects/lightning/meleeattack-impacts-magicaleffects-lightning-04.ogg` 
-            ]   
+            ],
+            "generic": {
+                "002": {
+                    "001": [
+                   `${prefix}/library/impacts/magicaleffects/generic/002/impact-magicaleffects-generic-001-03.ogg`  
+                    ],
+                }
+            }    
         }
     }
     psfxDatabase["cantrips"] = {
@@ -545,8 +552,103 @@ export async function registerPSFXDatabase(prefix) {
             "001": [
                 `${prefix}/library/casting/generic/cast-generic-03.ogg`
             ],
+            "002": {
+                "001": [
+               `${prefix}/library/casting/generic/002/cast-generic-001-03.ogg`  
+                ],
+            }
         }
     }
+        psfxDatabase["ranged-magic"] = {
+            "generic": {
+                "missile" : {
+                    "only" : {
+                        "001": {
+                            "05ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-only-001-05ft-03.ogg`,
+                            "15ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-only-001-15ft-03.ogg`,
+                            "30ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-only-001-30ft-03.ogg`,
+                            "60ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-only-001-60ft-03.ogg`,
+                            "90ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-only-001-90ft-03.ogg`
+                        },
+                    },
+                    "complete" : {
+                        "001": {
+                            "05ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-complete-001-05ft-03.ogg`,
+                            "15ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-complete-001-15ft-03.ogg`,
+                            "30ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-complete-001-30ft-03.ogg`,
+                            "60ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-complete-001-60ft-03.ogg`,
+                            "90ft": `${prefix}/library/ranged-magic/generic/missile/001/ranged-magic-missile-complete-001-90ft-03.ogg`
+                        },
+                    }
+                },
+                "projectile": {
+                    "ranged": {
+                        "001": {
+                            "05ft": `${prefix}/library/ranged-magic/generic/projectile/001/ranged-magic-projectile-001-05ft-03.ogg`, 
+                            "15ft": `${prefix}/library/ranged-magic/generic/projectile/001/ranged-magic-projectile-001-15ft-03.ogg`,
+                            "30ft": `${prefix}/library/ranged-magic/generic/projectile/001/ranged-magic-projectile-001-30ft-03.ogg`,
+                            "60ft": `${prefix}/library/ranged-magic/generic/projectile/001/ranged-magic-projectile-001-60ft-03.ogg`,
+                            "90ft": `${prefix}/library/ranged-magic/generic/projectile/001/ranged-magic-projectile-001-90ft-03.ogg`
+                        },
+                    },
+                    "instant": {
+                        "001": `${prefix}/library/ranged-magic/generic/instant/001/ranged-magic-instant-001-03.ogg`,
+                        }
+                },
+                "beam": {
+                        "001": `${prefix}/library/ranged-magic/generic/beam/001/ranged-magic-beam-001-03.ogg`,
+                        }
+            }
+        }
+        psfxDatabase["creature"] = {
+            "movement": {
+                "footsteps" : {
+                    "outdoors" : {
+                        "001": {
+                            "single": [
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-00.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-01.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-02.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-03.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-04.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-05.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-06.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-single-outdoors-001-07.ogg`     
+                            ],
+                            "sequence": `${prefix}/library/creature/movement/footsteps/outdoors/001/footsteps-sequence-outdoors-001.ogg`
+    
+                        },
+                        "002": {
+                            "single": [
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-00.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-01.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-02.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-03.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-04.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-05.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-06.ogg`,
+                            `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-single-outdoors-002-07.ogg`    
+                            ],
+                            "sequence": `${prefix}/library/creature/movement/footsteps/outdoors/002/footsteps-sequence-outdoors-002.ogg`
+    
+                        }
+                    },
+                },
+                "burrow": {
+                    "001": {
+                        "ranged": {
+                            "05ft": `${prefix}/library/creature/movement/burrow/001/burrow-ranged-001-05ft-03.ogg`,
+                            "15ft": `${prefix}/library/creature/movement/burrow/001/burrow-ranged-001-15ft-03.ogg`,
+                            "30ft": `${prefix}/library/creature/movement/burrow/001/burrow-ranged-001-30ft-03.ogg`,
+                            "60ft": `${prefix}/library/creature/movement/burrow/001/burrow-ranged-001-60ft-03.ogg`,
+                            "90ft": `${prefix}/library/creature/movement/burrow/001/burrow-ranged-001-90ft-03.ogg`,
+                        }
+                    },
+                    "breach": `${prefix}/library/creature/movement/burrow/001/burrow-breach-001-03.ogg`
+                }
+            }
+        }
+    
     // TO DO Variations pending
     // psfxDatabase["incantations"] = {
     //     "older-female": {

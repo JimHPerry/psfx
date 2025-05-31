@@ -63,7 +63,7 @@ I use this module in my D&D5e campaign, and have taken inspiration from that sys
 
 # How much does the module cost to use?
 
-Nothing. It’s free. However, if you would like to support me you can [tip me or subscribe to my Ko-fi](https://ko-fi.com/perisfx) to get an awesome server role.
+Nothing. It’s free. However, if you would like to support me and access even more sounds please check out my [Patreon](https://www.patreon.com/c/PeriSFX).
 
 # How often will there be updates/releases of new sounds?
 
