@@ -648,7 +648,53 @@ export async function registerPSFXDatabase(prefix) {
                 }
             }
         }
-    
+     psfxDatabase["magic-signs"] = {
+        "circle": {
+                "v1" : {
+                    "abjuration" : {
+                        "complete" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-complete.ogg`,
+                        "intro" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-intro.ogg`,
+                        "loop" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-loop.ogg`,
+                        "outro" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-outro.ogg`
+                },
+                    "conjuration" : {
+                        "complete" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-complete.ogg`,
+                        "intro" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-intro.ogg`,
+                        "loop" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-loop.ogg`,
+                        "outro" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-outro.ogg`
+                },
+                    "divination" : {
+                        "complete" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-complete.ogg`,
+                        "intro" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-intro.ogg`,
+                        "loop" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-loop.ogg`,
+                        "outro" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-outro.ogg`
+                },
+            }
+        },
+        "rune": {
+                "v1" : {
+                    "abjuration" : {
+                        "complete" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-complete.ogg`,
+                        "intro" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-intro.ogg`,
+                        "loop" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-loop.ogg`,
+                        "outro" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-outro.ogg`
+                },
+                    "conjuration" : {
+                        "complete" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-complete.ogg`,
+                        "intro" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-intro.ogg`,
+                        "loop" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-loop.ogg`,
+                        "outro" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-outro.ogg`
+                },
+                    "divination" : {
+                        "complete" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-complete.ogg`,
+                        "intro" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-intro.ogg`,
+                        "loop" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-loop.ogg`,
+                        "outro" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-outro.ogg`
+                },
+            }
+        }
+
+    }
     // TO DO Variations pending
     // psfxDatabase["incantations"] = {
     //     "older-female": {
