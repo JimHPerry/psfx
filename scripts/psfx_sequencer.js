@@ -480,7 +480,20 @@ export async function registerPSFXDatabase(prefix) {
                 "60ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-60ft.ogg`,
                 "90ft": `${prefix}/library/2nd-level-spells/scorching-ray/v1/scorching-ray-001-90ft.ogg`
               }
-        }
+        },
+            "misty-step": {
+                "v1" : {
+                    "complete" : {
+                        "generic" : `${prefix}/library/2nd-level-spells/misty-step/v1/complete/misty-step-complete-generic-001.ogg`
+                },
+                    "intro" : {
+                        "generic" : `${prefix}/library/2nd-level-spells/misty-step/v1/intro/misty-step-intro-generic-001.ogg`
+                },
+                    "outro" : {
+                        "generic" : `${prefix}/library/2nd-level-spells/misty-step/v1/outro/misty-step-outro-generic-001.ogg`
+                }
+            }
+        },
     }
     psfxDatabase["3rd-level-spells"] = {
         "fireball": {
@@ -655,19 +668,22 @@ export async function registerPSFXDatabase(prefix) {
                         "complete" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-complete.ogg`,
                         "intro" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-intro.ogg`,
                         "loop" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-loop.ogg`,
-                        "outro" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-outro.ogg`
+                        "outro" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-outro.ogg`,
+                        "intro-fade" : `${prefix}/library/magic-signs/circles/v1/abjuration-magic-sign-circle-intro-fade.ogg`
                 },
                     "conjuration" : {
                         "complete" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-complete.ogg`,
                         "intro" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-intro.ogg`,
                         "loop" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-loop.ogg`,
-                        "outro" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-outro.ogg`
+                        "outro" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-outro.ogg`,
+                        "intro-fade" : `${prefix}/library/magic-signs/circles/v1/conjuration-magic-sign-circle-intro-fade.ogg`
                 },
                     "divination" : {
                         "complete" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-complete.ogg`,
                         "intro" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-intro.ogg`,
                         "loop" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-loop.ogg`,
-                        "outro" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-outro.ogg`
+                        "outro" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-outro.ogg`,
+                        "intro-fade" : `${prefix}/library/magic-signs/circles/v1/divination-magic-sign-circle-intro-fade.ogg`
                 },
             }
         },
@@ -677,24 +693,138 @@ export async function registerPSFXDatabase(prefix) {
                         "complete" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-complete.ogg`,
                         "intro" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-intro.ogg`,
                         "loop" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-loop.ogg`,
-                        "outro" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-outro.ogg`
+                        "outro" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-outro.ogg`,
+                        "intro-fade" : `${prefix}/library/magic-signs/runes/v1/abjuration-magic-sign-rune-intro-fade.ogg`
                 },
                     "conjuration" : {
                         "complete" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-complete.ogg`,
                         "intro" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-intro.ogg`,
                         "loop" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-loop.ogg`,
-                        "outro" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-outro.ogg`
+                        "outro" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-outro.ogg`,
+                        "intro-fade" : `${prefix}/library/magic-signs/runes/v1/conjuration-magic-sign-rune-intro-fade.ogg`
                 },
                     "divination" : {
                         "complete" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-complete.ogg`,
                         "intro" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-intro.ogg`,
                         "loop" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-loop.ogg`,
-                        "outro" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-outro.ogg`
+                        "outro" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-outro.ogg`,
+                        "intro-fade" : `${prefix}/library/magic-signs/runes/v1/divination-magic-sign-rune-intro-fade.ogg`
                 },
             }
         }
-
     }
+
+    psfxDatabase["incantations"] = {
+        "masculine": {
+                "001": {
+                   "reverb": {
+                        "harm": {
+                            "001" : `${prefix}/library/incantations/masculine/001/reverb/harm/incantation-masculine001-reverb-harm-001.ogg`
+                        },
+                        "help": {
+                            "002" : `${prefix}/library/incantations/masculine/001/reverb/help/incantation-masculine001-reverb-help-002.ogg`
+                        },
+                        "summon": {
+                            "003" : `${prefix}/library/incantations/masculine/001/reverb/summon/incantation-masculine001-reverb-summon-003.ogg`
+                        }
+                   },
+                   "dry": {
+                        "harm": {
+                            "001" : `${prefix}/library/incantations/masculine/001/dry/harm/incantation-masculine001-dry-harm-001.ogg`,
+                        },
+                        "help": {
+                            "002" : `${prefix}/library/incantations/masculine/001/dry/help/incantation-masculine001-dry-help-002.ogg`,
+                        },
+                        "summon": {
+                            "003" : `${prefix}/library/incantations/masculine/001/dry/summon/incantation-masculine001-dry-summon-003.ogg`,
+                        }
+                   },
+                "demonic": {
+                        "harm": {
+                            "001" : `${prefix}/library/incantations/masculine/001/demonic/harm/incantation-masculine001-demonic-harm-001.ogg`,
+                        },
+                        "help": {
+                            "002" : `${prefix}/library/incantations/masculine/001/demonic/help/incantation-masculine001-demonic-help-002.ogg`,
+                        },
+                        "summon": {
+                            "003" : `${prefix}/library/incantations/masculine/001/demonic/summon/incantation-masculine001-demonic-summon-003.ogg`,
+                        }
+                   }
+                },
+                "002": {
+                   "reverb": {
+                        "harm": {
+                            "004" : `${prefix}/library/incantations/masculine/002/reverb/harm/incantation-masculine002-reverb-harm-004.ogg`,
+                        },
+                        "help": {
+                            "005" : `${prefix}/library/incantations/masculine/002/reverb/help/incantation-masculine002-reverb-help-005.ogg`,
+                        },
+                        "summon": {
+                            "006" : `${prefix}/library/incantations/masculine/002/reverb/summon/incantation-masculine002-reverb-summon-006.ogg`,
+                        }
+                   },
+                   "dry": {
+                        "harm": {
+                            "004" : `${prefix}/library/incantations/masculine/002/dry/harm/incantation-masculine002-dry-harm-004.ogg`,
+                        },
+                        "help": {
+                            "005" : `${prefix}/library/incantations/masculine/002/dry/help/incantation-masculine002-dry-help-005.ogg`,
+                        },
+                        "summon": {
+                            "006" : `${prefix}/library/incantations/masculine/002/dry/summon/incantation-masculine002-dry-summon-006.ogg`,
+                        }
+                   },
+                "demonic": {
+                        "harm": {
+                            "004" : `${prefix}/library/incantations/masculine/002/demonic/harm/incantation-masculine002-demonic-harm-004.ogg`,
+                        },
+                        "help": {
+                            "005" : `${prefix}/library/incantations/masculine/002/demonic/help/incantation-masculine002-demonic-help-005.ogg`,
+                        },
+                        "summon": {
+                            "006" : `${prefix}/library/incantations/masculine/002/demonic/summon/incantation-masculine002-demonic-summon-006.ogg`,
+                        }
+                   }
+                }
+            },
+            "feminine": {
+                "001": {
+                   "reverb": {
+                        "harm": {
+                            "007" : `${prefix}/library/incantations/feminine/001/reverb/harm/incantation-feminine001-reverb-harm-007.ogg`,
+                        },
+                        "help": {
+                            "008" : `${prefix}/library/incantations/feminine/001/reverb/help/incantation-feminine001-reverb-help-008.ogg`,
+                        },
+                        "summon": {
+                            "009" : `${prefix}/library/incantations/feminine/001/reverb/summon/incantation-feminine001-reverb-summon-009.ogg`,
+                        }
+                   },
+                   "dry": {
+                        "harm": {
+                            "007" : `${prefix}/library/incantations/feminine/001/dry/harm/incantation-feminine001-dry-harm-007.ogg`,
+                        },
+                        "help": {
+                            "008" : `${prefix}/library/incantations/feminine/001/dry/help/incantation-feminine001-dry-help-008.ogg`,
+                        },
+                        "summon": {
+                            "009" : `${prefix}/library/incantations/feminine/001/dry/summon/incantation-feminine001-dry-summon-009.ogg`,
+                        }
+                   },
+                "demonic": {
+                        "harm": {
+                            "007" : `${prefix}/library/incantations/feminine/001/demonic/harm/incantation-feminine001-demonic-harm-007.ogg`,
+                        },
+                        "help": {
+                            "008" : `${prefix}/library/incantations/feminine/001/demonic/help/incantation-feminine001-demonic-help-008.ogg`,
+                        },
+                        "summon": {
+                            "009" : `${prefix}/library/incantations/feminine/001/demonic/summon/incantation-feminine001-demonic-summon-009.ogg`,
+                        }
+                   }
+                }
+            }
+        }
     // TO DO Variations pending
     // psfxDatabase["incantations"] = {
     //     "older-female": {

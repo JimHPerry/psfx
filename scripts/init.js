@@ -20,7 +20,7 @@ Hooks.once('init', async function () {
 })
 
 Hooks.once('ready', async function () {
-  const popupSetting = 'popup0625'
+  const popupSetting = 'popup0725'
   if (game.user.isGM) {
     if (game.settings.get(MODULE_NAME, popupSetting) === false) {   
         // Create Chat Message and check if version of FoundryVTT is 9 or above (game.user.id becomes game.user._id)
