@@ -825,6 +825,42 @@ export async function registerPSFXDatabase(prefix) {
                 }
             }
         }
+    
+           psfxDatabase["conditions"] = {
+        "boon": {
+            "001": {
+                "01" : `${prefix}/library/conditions/boon/boon-001-01.ogg`
+                },
+            "002": {
+                "01" : `${prefix}/library/conditions/boon/boon-002-01.ogg`
+                },
+            "003": {
+                "01" : `${prefix}/library/conditions/boon/boon-003-01.ogg`
+                },
+            "004": {
+                "01" : `${prefix}/library/conditions/boon/boon-004-01.ogg`
+                },
+            "005": {                
+                "01" : `${prefix}/library/conditions/boon/boon-005-01.ogg`
+                },
+            "006": {
+                "01" : `${prefix}/library/conditions/boon/boon-006-01.ogg`
+                },
+            },
+         "generic-layer": {
+            "002": `${prefix}/library/conditions/generic-layers/generic-layer-002.ogg`
+            }
+        }
+    psfxDatabase["consumables"] = {
+            "potions-vials": {
+                "cork-bottle": {
+                    "002" : `${prefix}/library/consumables/potions-vials/cork-bottle/cork-bottle-002.ogg`
+                },
+                "drink-liquid": {
+                    "002" : `${prefix}/library/consumables/potions-vials/drink-liquid/drink-liquid-002.ogg`
+                },
+            },
+    } 
     // TO DO Variations pending
     // psfxDatabase["incantations"] = {
     //     "older-female": {
