@@ -10,10 +10,13 @@ let contentCard = `
         </p>
         <hr>
         <div>
-            <p style="text-align: justify;">If you’re enjoying PSFX, you can support its development and access more sounds on Patreon from only £1!</p>
+            <p style="text-align: justify;">You can check which sounds are new this month on the <a href="https://patreon.com/PeriSFX">latest release notes</a>, and import free D&D presets for Automated Animations from my Discord server. 
+            </p>
+             <p style="text-align: justify;">If you’re enjoying Peri's Sound Effects, you can support its development and access more sounds on Patreon from only £1!</p>
             <p style="text-align: center; line-height: 150%">
             <a href="https://discord.gg/p5MBHt4Hkv" style="margin-right: 10px;">Discord</a>
-            <a href="https://patreon.com/PeriSFX">Patreon</a>
+            <a href="https://patreon.com/PeriSFX" style="margin-right: 10px;">Patreon</a>
+            <a href="https://www.youtube.com/playlist?list=PLU1n-6EuhYqd_vngvwqLq0_CbcAOcXbMg">Asset Gallery</a>
             </p>
 
 

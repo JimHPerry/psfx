@@ -469,7 +469,16 @@ export async function registerPSFXDatabase(prefix) {
                 "60ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-60ft.ogg`,
                 "90ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-90ft.ogg`
               }
-        }
+        },
+            "bless": {
+            "v1": {
+                "001": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-001.ogg`,
+                "002": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-002.ogg`,
+                "003": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-003.ogg`,
+                "004": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-004.ogg`,
+                "005": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-005.ogg`,
+            }
+        }    
     }
     psfxDatabase["2nd-level-spells"] = {
         "scorching-ray": {
@@ -492,6 +501,35 @@ export async function registerPSFXDatabase(prefix) {
                     "outro" : {
                         "generic" : `${prefix}/library/2nd-level-spells/misty-step/v1/outro/misty-step-outro-generic-001.ogg`
                 }
+            }
+        },
+         "moonbeam": {
+            "intro" : {
+                "v1" : {
+                    "001" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro-v1-001.ogg`,
+                    "002" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro-v1-002.ogg`,
+                    "003" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro-v1-003.ogg`,
+                    "004" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro-v1-004.ogg`,
+                    "005" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro-v1-005.ogg`,
+                 }
+            },
+            "intro_no_pulse" : {
+                "v1" : {
+                    "001" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro_no_pulse-v1-001.ogg`,
+                    "002" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro_no_pulse-v1-002.ogg`,
+                    "003" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro_no_pulse-v1-003.ogg`,
+                    "004" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro_no_pulse-v1-004.ogg`,
+                    "005" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-intro_no_pulse-v1-005.ogg`,
+                 }
+            },
+            "outro" : {
+                "v1" : {
+                    "001" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-outro-v1-001.ogg`,
+                    "002" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-outro-v1-002.ogg`,
+                    "003" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-outro-v1-003.ogg`,
+                    "004" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-outro-v1-004.ogg`,
+                    "005" : `${prefix}/library/2nd-level-spells/moonbeam/v1/moonbeam-outro-v1-005.ogg`,
+                 }
             }
         },
     }
