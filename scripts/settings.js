@@ -3,7 +3,7 @@ export default async function psfx_settings() {
 
  
 
-  game.settings.register(MODULE_NAME, "popup0725", {  // game.setting.register("NameOfTheModule", "VariableName",
+  game.settings.register(MODULE_NAME, "popup0925", {  // game.setting.register("NameOfTheModule", "VariableName",
     name: "Info Chat Card - Disabled",                  // Register a module setting with checkbox
     hint: "If On, you won't see the info chat card at the start",               // Description of the settings
     scope: "world",                                     // This specifies a world-level setting
