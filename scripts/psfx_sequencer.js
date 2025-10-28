@@ -571,6 +571,13 @@ export async function registerPSFXDatabase(prefix) {
                     "target" : `${prefix}/library/class-features/divine-smite/v1/divine-smite-target-01.ogg`
                 }
             }
+        },
+        "bardic-inspiration": {
+            "v1" : {
+                "keyOfC" : {
+                    "001" : `${prefix}/library/class-features/bardic-inspiration/v1/bardicInspiration-layer-keyOfC-001.ogg`,
+                },
+            }
         }
     }
     psfxDatabase["casting"] = {
@@ -897,6 +904,24 @@ export async function registerPSFXDatabase(prefix) {
                 "drink-liquid": {
                     "002" : `${prefix}/library/consumables/potions-vials/drink-liquid/drink-liquid-002.ogg`
                 },
+            },
+    }
+        psfxDatabase["musical-instruments"] = {
+                "lute": {
+                    "01":{
+                     "strummed": {
+                        "keyOfC": {
+                            "C6" : `${prefix}/library/musical-instruments/strummed-plucked/lute/strummed/lute-C6-strum.ogg`,
+                            "C7" : `${prefix}/library/musical-instruments/strummed-plucked/lute/strummed/lute-C7-strum.ogg`
+                        }
+                    },
+                    "strummed-tremolo": {
+                        "keyOfC": {
+                            "Cadd9" : `${prefix}/library/musical-instruments/strummed-plucked/lute/strummed-tremolo/lute-Cadd9-strum-tremolo.ogg`,
+                            "Cm6" : `${prefix}/library/musical-instruments/strummed-plucked/lute/strummed-tremolo/lute-Cm6-strum-tremolo.ogg`,
+                        }
+                    }
+                }
             },
     } 
     // TO DO Variations pending
