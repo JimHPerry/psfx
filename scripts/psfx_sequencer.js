@@ -470,7 +470,7 @@ export async function registerPSFXDatabase(prefix) {
                 "90ft": `${prefix}/library/1st-level-spells/magic-missile/v1/magic-missile-001-90ft.ogg`
               }
         },
-            "bless": {
+        "bless": {
             "v1": {
                 "001": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-001.ogg`,
                 "002": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-002.ogg`,
@@ -478,8 +478,22 @@ export async function registerPSFXDatabase(prefix) {
                 "004": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-004.ogg`,
                 "005": `${prefix}/library/1st-level-spells/bless/v1/bless-v1-005.ogg`,
             }
-        }    
+        }, 
+        "shield-spell": {
+            "intro": {
+                "v1":{
+                    "003": `${prefix}/library/1st-level-spells/shield-spell/v1/shield-spell-v1-intro-03.ogg`
+
+                }
+            },
+            "outro": {
+                "v1":{
+                    "003": `${prefix}/library/1st-level-spells/shield-spell/v1/shield-spell-v1-outro-03.ogg`
+                }
+             }
+        }  
     }
+    
     psfxDatabase["2nd-level-spells"] = {
         "scorching-ray": {
             "v1": {
