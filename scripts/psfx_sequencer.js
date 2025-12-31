@@ -717,9 +717,51 @@ export async function registerPSFXDatabase(prefix) {
                         }
                     },
                     "breach": `${prefix}/library/creature/movement/burrow/001/burrow-breach-001-03.ogg`
-                }
+                },
+            "flight": {
+                "landing": {
+                    "impact": {
+                        "small": [
+                            `${prefix}/library/creature/movement/flight/landing/landing-impact-small-001.ogg`
+                ]
+            }
+        },   
+                "wings": {
+                    "small": [
+                        `${prefix}/library/creature/movement/flight/wings/beating-wings-small-001.ogg`
+                ]
+            }   
+        },
+
+    },
+        "dragons": {
+            "attacks": {
+                "breath": {
+                     "small": {
+                        "fire": [
+                            `${prefix}/library/creature/dragons/attacks/breath-attack-small-fire-001.ogg`
+                        ],
+                        "cold": [
+                            `${prefix}/library/creature/dragons/attacks/breath-attack-small-cold-001.ogg`
+                        ],
+                },
+            },
+                "rend": {
+                    "fire": [
+                        `${prefix}/library/creature/dragons/attacks/rend-slash-fire-001.ogg`
+                ],
+                    "cold": [
+                        `${prefix}/library/creature/dragons/attacks/rend-slash-cold-001.ogg`
+                ]
+            }
+        },
+            "roar": {
+                "small": [
+                    `${prefix}/library/creature/dragons/roar/dragon-roar-small-001.ogg`    
+                ]
             }
         }
+    },
      psfxDatabase["magic-signs"] = {
         "circle": {
                 "v1" : {
