@@ -1,5 +1,3 @@
-
-
 let contentCard = `
 <div class="div-styled" style= "padding: 5px;">
     <div style="text-align: justify; color: #E7E7E7; padding: 10px; background-color: #000000; border: 3px solid #f4f5f5; border-radius: 10px;">
@@ -10,17 +8,22 @@ let contentCard = `
         </p>
         <hr>
         <div>
-            <p style="text-align: justify;">You can check which sounds are new this month on the <a href="https://patreon.com/PeriSFX">latest release notes</a>, and import free D&D presets for Automated Animations from my Discord server. 
+            <p style="text-align: center; font-weight: bold; font-style: italic; color: #f4f5f5;">
+                Advance Notice: Patreon Membership Changes
             </p>
-             <p style="text-align: justify;">If you’re enjoying Peri's Sound Effects, you can support its development and access more sounds on Patreon from only £1!</p>
+            <p style="text-align: justify; font-style: italic; color: #E7E7E7;">
+                £1 memberships will move to a <span style="font-weight: bold; color: #f4f5f5;">limited number of spots</span> from <span style="font-weight: bold;">31st January</span>.
+            </p>
+            <p style="text-align: center; font-style: italic;">
+                <a href="https://patreon.com/PeriSFX" style="font-weight: bold; color: #f4f5f5;">
+                    Visit PSFX Patreon to find out more
+                </a>
+            </p>
             <p style="text-align: center; line-height: 150%">
             <a href="https://discord.gg/p5MBHt4Hkv" style="margin-right: 10px;">Discord</a>
             <a href="https://patreon.com/PeriSFX" style="margin-right: 10px;">Patreon</a>
             <a href="https://www.youtube.com/playlist?list=PLU1n-6EuhYqd_vngvwqLq0_CbcAOcXbMg">Asset Gallery</a>
             </p>
-
-
-
         </div>
         <hr>
         <div class="div-styled" style="font-style:italic;">
@@ -28,9 +31,7 @@ let contentCard = `
             This chat card will only be shown once. Activate once more in the settings if needed.
             </p>
         </div>
-
     </div>
 </div>
 `;
 export {contentCard}
-    
