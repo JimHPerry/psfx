@@ -1,3 +1,5 @@
-2026/01/16-23:20:40.335 6b00 Recovering log #724
-2026/01/16-23:20:40.339 6b00 Delete type=0 #724
-2026/01/16-23:20:40.339 6b00 Delete type=3 #723
+2026/01/30-12:06:44.897 e4cc Recovering log #740
+2026/01/30-12:06:44.897 e4cc Level-0 table #742: started
+2026/01/30-12:06:44.898 e4cc Level-0 table #742: 1347 bytes OK
+2026/01/30-12:06:44.899 e4cc Delete type=0 #740
+2026/01/30-12:06:44.899 e4cc Delete type=3 #739

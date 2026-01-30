@@ -403,6 +403,26 @@ export async function registerPSFXDatabase(prefix) {
                 ],               
                 
             }
+        },
+         "guns": {
+            "single-fire": {
+                "revolver": [
+                    `${prefix}/library/ranged-weapons/guns/revolver/single-fire/revolver-single-fire-001-01.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/single-fire/revolver-single-fire-001-02.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/single-fire/revolver-single-fire-001-03.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/single-fire/revolver-single-fire-001-04.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/single-fire/revolver-single-fire-001-05.ogg` 
+                ]
+            },            
+            "prepare": {
+                "revolver": [
+                    `${prefix}/library/ranged-weapons/guns/revolver/prepare/revolver-prepare-001-01.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/prepare/revolver-prepare-001-02.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/prepare/revolver-prepare-001-03.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/prepare/revolver-prepare-001-04.ogg`,
+                    `${prefix}/library/ranged-weapons/guns/revolver/prepare/revolver-prepare-001-05.ogg` 
+                ]
+            }
         }
     }
     psfxDatabase["weapon-attacks"] = {
