@@ -511,7 +511,12 @@ export async function registerPSFXDatabase(prefix) {
                     "003": `${prefix}/library/1st-level-spells/shield-spell/v1/shield-spell-v1-outro-03.ogg`
                 }
              }
-        }  
+        },
+            "sleep": {
+                "v1": {
+                    "001": `${prefix}/library/1st-level-spells/sleep/v1/sleep-v1-001.ogg`
+                },
+        },  
     }
     
     psfxDatabase["2nd-level-spells"] = {
@@ -649,6 +654,13 @@ export async function registerPSFXDatabase(prefix) {
                `${prefix}/library/casting/generic/002/cast-generic-001-03.ogg`  
                 ],
             }
+        },
+        "generic-v2": {
+            "001": {
+                "01": [
+               `${prefix}/library/casting/generic-v2/001/cast-generic-001-01.ogg`  
+                ],
+            },
         }
     }
         psfxDatabase["ranged-magic"] = {
@@ -779,6 +791,13 @@ export async function registerPSFXDatabase(prefix) {
                 "small": [
                     `${prefix}/library/creature/dragons/roar/dragon-roar-small-001.ogg`    
                 ]
+            }
+        },
+        "sleeping": {
+            "humanoid": {
+                "snoring": {
+                    "001": `${prefix}/library/creature/sleeping/humanoid/snoring/snoring-humanoid-001.ogg`
+                }
             }
         }
     },

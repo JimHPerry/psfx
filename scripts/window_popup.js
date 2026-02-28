@@ -12,7 +12,7 @@ let contentCard = `
             <p style="text-align: center; line-height: 150%">
             <a href="https://discord.gg/p5MBHt4Hkv" style="margin-right: 10px;">Discord</a>
             <a href="https://patreon.com/PeriSFX">Patreon</a>
-            <a href="https://www.youtube.com/playlist?list=PLU1n-6EuhYqd_vngvwqLq0_CbcAOcXbMg">Asset Gallery</a>
+            <a href="https://www.youtube.com/playlist?list=PLU1n-6EuhYqd_vngvwqLq0_CbcAOcXbMg" style="margin-left: 10px;">Asset Gallery</a>
             </p>
         </div>
         <hr>
