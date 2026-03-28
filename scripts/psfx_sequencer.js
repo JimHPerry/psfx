@@ -516,7 +516,12 @@ export async function registerPSFXDatabase(prefix) {
                 "v1": {
                     "001": `${prefix}/library/1st-level-spells/sleep/v1/sleep-v1-001.ogg`
                 },
-        },  
+        },
+        "detect-magic": {
+            "v1": {
+                "001": `${prefix}/library/1st-level-spells/detect-magic/v1/detect-magic-001.ogg`,
+}
+        }  
     }
     
     psfxDatabase["2nd-level-spells"] = {
