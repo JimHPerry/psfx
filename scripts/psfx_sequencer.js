@@ -455,6 +455,37 @@ export async function registerPSFXDatabase(prefix) {
             }
         },
     }
+
+   psfxDatabase["doors"] = {
+        "clean": {
+            "open": {
+                "wooden": {
+                    "01": `${prefix}/library/doors/clean/wooden/01/wooden-open-clean-01.ogg`                 
+                },
+            },
+            "close": {
+                "wooden": {
+                    "01": `${prefix}/library/doors/clean/wooden/01/wooden-close-clean-01.ogg`                  
+                },
+            },
+            "test": {
+                "wooden": {
+                    "01": `${prefix}/library/doors/clean/wooden/01/wooden-test-clean-01.ogg`                   
+                },
+            },
+            "lock": {
+                "wooden": {
+                    "01": `${prefix}/library/doors/clean/wooden/01/wooden-lock-clean-01.ogg`
+            },
+            "unlock": {
+                "wooden": {
+                    "01": `${prefix}/library/doors/clean/wooden/01/wooden-unlock-clean-01.ogg`                   
+                },
+            }
+        }
+        }
+}
+
     psfxDatabase["1st-level-spells"] = {
         "entangle": {
             "vines" : {
