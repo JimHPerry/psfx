@@ -381,7 +381,14 @@ export async function registerPSFXDatabase(prefix) {
                     "target" : `${prefix}/library/cantrips/sacred-flame/v1/sacred-flame-target-01.ogg`
                 }
             }
-        }
+        },
+        "mending": {
+            "v1" : {
+                "001" : {
+                    "with-cast" : `${prefix}/library/cantrips/mending/v1/mending-with-cast-001.ogg`
+                }
+            }
+        },
     }
     psfxDatabase["ranged-weapons"] = {
         "longbow": {
@@ -697,7 +704,8 @@ export async function registerPSFXDatabase(prefix) {
                `${prefix}/library/casting/generic-v2/001/cast-generic-001-01.ogg`  
                 ],
             },
-        }
+        },
+        
     }
         psfxDatabase["ranged-magic"] = {
             "generic": {
