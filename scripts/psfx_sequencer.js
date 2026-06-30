@@ -1044,6 +1044,55 @@ export async function registerPSFXDatabase(prefix) {
                     "002" : `${prefix}/library/consumables/potions-vials/drink-liquid/drink-liquid-002.ogg`
                 },
             },
+            "food-and-drink": {
+                "open": {
+                    "food": {
+                        "bag":{
+                            "zip":{
+                                "001" : `${prefix}/library/consumables/food-and-drink/open/consumable-open-bag-zip-01.ogg`,
+                            },
+                        },
+                    },
+                    "drink": {
+                        "glassbottle":{
+                            "twistcap":{
+                                "001" : `${prefix}/library/consumables/food-and-drink/open/consumable-open-glassbottle-twistcap-01.ogg`,
+                                },
+                        },
+                    },
+                },
+                "consume": {
+                    "drink":{
+                        "sip":{
+                            "polite":{
+                                "001" : `${prefix}/library/consumables/food-and-drink/consume/consumable-consume-drink-sip-polite-01.ogg`,                           
+                                }
+                        },
+                    },
+                    "food":{
+                        "bite":{
+                            "soft":{
+                                "001" : `${prefix}/library/consumables/food-and-drink/consume/consumable-consume-food-bite-soft-01.ogg`,
+                                },
+                        },
+                        "chew":{
+                            "soft":{
+                                "001" : `${prefix}/library/consumables/food-and-drink/consume/consumable-consume-food-chew-soft-01.ogg`,
+                                },
+                        },
+                        "swallow":{
+                                "001" : `${prefix}/library/consumables/food-and-drink/consume/consumable-consume-food-swallow-masc-01.ogg`,
+                        },
+                    },                    
+                },
+                "reaction": {
+                    "masc":{
+                        "ahh":{
+                            "001" : `${prefix}/library/consumables/food-and-drink/reaction/consumable-reaction-ahh-masc-01.ogg`,
+                        },
+                    },
+                },             
+            },
     }
         psfxDatabase["musical-instruments"] = {
                 "lute": {
