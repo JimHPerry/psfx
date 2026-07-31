@@ -558,8 +558,27 @@ export async function registerPSFXDatabase(prefix) {
         "detect-magic": {
             "v1": {
                 "001": `${prefix}/library/1st-level-spells/detect-magic/v1/detect-magic-001.ogg`,
-}
-        }  
+            }
+        },
+        "dissonant-whispers": {
+            "v1":{
+                "001": [
+                    `${prefix}/library/1st-level-spells/dissonant-whispers/v1/001/dissonant-whispers-001-03.ogg`,
+                ],
+                "002": 
+
+                    `${prefix}/library/1st-level-spells/dissonant-whispers/v1/002/dissonant-whispers-002.ogg`,
+
+                
+                "003": [
+                    `${prefix}/library/1st-level-spells/dissonant-whispers/v1/003/dissonant-whispers-003-03.ogg`,
+                ],
+                "004": [
+                    `${prefix}/library/1st-level-spells/dissonant-whispers/v1/004/dissonant-whispers-004-03.ogg`,
+                ],
+            }
+        }
+  
     }
     
     psfxDatabase["2nd-level-spells"] = {
@@ -745,9 +764,28 @@ export async function registerPSFXDatabase(prefix) {
                 },
                 "beam": {
                         "001": `${prefix}/library/ranged-magic/generic/beam/001/ranged-magic-beam-001-03.ogg`,
-                        }
+                        },
+           "energy-strands": {
+                    "001": {
+                        "05ft": [                    
+                            `${prefix}/library/ranged-magic/generic/energy-strands/001/05ft/ranged-magic-energy-strands-001-05ft.ogg`,
+                    ],
+                        "15ft": [                    
+                            `${prefix}/library/ranged-magic/generic/energy-strands/001/15ft/ranged-magic-energy-strands-001-15ft.ogg`,
+                    ],
+                        "30ft": [                    
+                            `${prefix}/library/ranged-magic/generic/energy-strands/001/30ft/ranged-magic-energy-strands-001-30ft.ogg`,
+                    ],
+                        "60ft": [                    
+                            `${prefix}/library/ranged-magic/generic/energy-strands/001/60ft/ranged-magic-energy-strands-001-60ft.ogg`,
+                    ],
+                        "90ft": [                    
+                            `${prefix}/library/ranged-magic/generic/energy-strands/001/90ft/ranged-magic-energy-strands-001-90ft.ogg`,
+                    ],
+                },
             }
         }
+    }
         psfxDatabase["creature"] = {
             "movement": {
                 "footsteps" : {
@@ -1007,6 +1045,26 @@ export async function registerPSFXDatabase(prefix) {
                         }
                    }
                 }
+            },
+            "whispers": {
+                "masc": {
+                    "001": {
+                        "forward": {
+                            "standard": {
+                                "001" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-001.ogg`,
+                                "002" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-002.ogg`,
+                                "003" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-003.ogg`,
+                                "004" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-004.ogg`,
+                                "005" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-005.ogg`,
+                                "006" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-006.ogg`,
+                                "007" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-007.ogg`,
+                                "008" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-008.ogg`,
+                                "009" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-009.ogg`,
+                                "010" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-010.ogg`
+                            },
+                        },
+                    }
+                }    
             }
         }
     
