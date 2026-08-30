@@ -1061,10 +1061,28 @@ export async function registerPSFXDatabase(prefix) {
                                 "008" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-008.ogg`,
                                 "009" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-009.ogg`,
                                 "010" : `${prefix}/library/incantations/whispers/masc/001/forward/standard/incantations-whispers-masc-001-forward-standard-010.ogg`
-                            },
-                        },
+                            }
+                        }
                     }
-                }    
+                },
+                "fem": {
+                    "001": {
+                        "forward": {
+                            "standard": {
+                                "001" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-001.ogg`,
+                                "002" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-002.ogg`,
+                                "003" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-003.ogg`,
+                                "004" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-004.ogg`,
+                                "005" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-005.ogg`,
+                                "006" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-006.ogg`,
+                                "007" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-007.ogg`,
+                                "008" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-008.ogg`,
+                                "009" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-009.ogg`,
+                                "010" : `${prefix}/library/incantations/whispers/fem/001/forward/standard/incantations-whispers-fem-001-forward-standard-010.ogg`
+                            }
+                        }
+                    }
+                } 
             }
         }
     
