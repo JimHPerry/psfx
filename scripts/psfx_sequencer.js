@@ -389,6 +389,22 @@ export async function registerPSFXDatabase(prefix) {
                 }
             }
         },
+        "produce-flame": {
+            "v1" : {
+                "001" : {
+                    "intro" : `${prefix}/library/cantrips/produce-flame/v1/001/produce-flame-intro-001.ogg`,
+                    "loop" : `${prefix}/library/cantrips/produce-flame/v1/001/produce-flame-loop-001.ogg`,
+                    "outro" : `${prefix}/library/cantrips/produce-flame/v1/001/produce-flame-outro-001.ogg`,
+                    "complete" :{
+                        _markers: {
+                        loop: { start: 3000, end: 7967 }
+                        },
+                            "persist-complete" : `${prefix}/library/cantrips/produce-flame/v1/001/produce-flame-persist-complete-001.ogg`,
+                            "fade-complete" : `${prefix}/library/cantrips/produce-flame/v1/001/produce-flame-fade-complete-001.ogg`,
+                    }
+                },
+            }
+        }
     }
     psfxDatabase["ranged-weapons"] = {
         "longbow": {
@@ -577,7 +593,33 @@ export async function registerPSFXDatabase(prefix) {
                     `${prefix}/library/1st-level-spells/dissonant-whispers/v1/004/dissonant-whispers-004-03.ogg`,
                 ],
             }
-        }
+        },
+       "hideous-laughter": {
+                    "fem-group":{
+                        "01":{
+                            "reverb":{
+
+                                "005": `${prefix}/library/1st-level-spells/hideous-laughter/v1/laughs/fem-group/01/reverb/fem-group-01-reverb-005.ogg`, 
+                            },
+
+                        }
+                    },
+                    "fem":{
+                        "01":{
+                            "pitch-down":{
+                                "001": `${prefix}/library/1st-level-spells/hideous-laughter/v1/laughs/fem/01/pitch-down/fem-01-pitch-down-001.ogg`,
+                            }
+                        },
+                    },
+                    "masc":{
+                        "01":{
+                            "pitch-up":{
+                                "005": `${prefix}/library/1st-level-spells/hideous-laughter/v1/laughs/masc/01/pitch-up/masc-01-pitch-up-005.ogg`,
+                            },
+                        },
+                    }                      
+                }
+
   
     }
     
@@ -723,6 +765,11 @@ export async function registerPSFXDatabase(prefix) {
                `${prefix}/library/casting/generic-v2/001/cast-generic-001-01.ogg`  
                 ],
             },
+        },
+        "on-token": {
+            "001": [
+               `${prefix}/library/casting/on-token/on-token-cast-001.ogg`  
+                ],
         },
         
     }
